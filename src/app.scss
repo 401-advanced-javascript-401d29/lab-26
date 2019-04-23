@@ -1,6 +1,10 @@
+$backgroundColor1:  #CAD49D;
+$backgroundColor2: #484538;
+$backgroundColor3: #56A3A6;
+
 #root {
-  background: #56A3A6;
-  color: #484538;
+  background: $backgroundColor3;
+  color: $backgroundColor2;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -10,7 +14,7 @@
     padding: 1px;
     border-bottom: 3px dashed white;
     margin-bottom: 10px;
-    background: #CAD49D;
+    background: $backgroundColor1;
   }
   main {
     text-align: center;
@@ -20,15 +24,15 @@
     align-items: center;
     h4 {
       font-size: 30px;
-      background: #CAD49D;
+      background: $backgroundColor1;
       width: 70%;
       justify-content: center;
       padding: 5px;
-      border: 2px solid #484538;
-      color: #484538;
+      border: 2px solid $backgroundColor2;
+      color: $backgroundColor2;
     }
     div > a {
-      background: #484538;
+      background: $backgroundColor2;
       padding: 10px;
       margin-left: 5px;
       margin-right: 5px;
@@ -41,7 +45,7 @@
     bottom: 0;
     left: 0;
     position: fixed;
-    background:  #CAD49D;
+    background:  $backgroundColor1;
     text-align: center;
     padding: 5px;
     font-size: 20px;
