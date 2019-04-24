@@ -6,5 +6,5 @@
 * [Code Sandbox](https://codesandbox.io/s/github/etrainor/lab-26/tree/master/)
 
 #### UML
-![UML IMAGE](assets/uml.jpg)
+![UML IMAGE](assets/uml.jpg) 
 
